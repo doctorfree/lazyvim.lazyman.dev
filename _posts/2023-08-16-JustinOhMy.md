@@ -12,12 +12,10 @@ img_path: "/posts/20230816"
 Full featured starter LazyVim based Neovim configuration by Justin Angeles. Justin has a [YouTube video](https://youtu.be/mpSuIfBKP-s) describing this config
 
 - Install and initialize: **`lazyman -x JustinOhMy`**
-- Configuration category: [Starter](https://github.com/doctorfree/nvim-lazyman#starter-configurations)
+- Configuration category: [Starter](https://lazyman.dev/configurations/#starter-configurations)
 - Base configuration:     [LazyVim](https://lazyvim.github.io)
 - Plugin manager:         [Lazy](https://github.com/folke/lazy.nvim)
 - Installation location:  **`~/.config/nvim-JustinOhMy`**
-
-[Links to all Lazyman supported configuration documents](https://github.com/doctorfree/nvim-lazyman/wiki/infodocs)
 
 ### Git repository
 
