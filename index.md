@@ -16,7 +16,6 @@ The following are [Lazyman](https://lazyman.dev) supported
 | [Penguin](https://lazyvim.lazyman.dev/posts/Penguin) | [Traap](https://lazyvim.lazyman.dev/posts/Traap) | [Webdev](https://lazyvim.lazyman.dev/posts/Webdev) | |
 
 <div align="center">
-  <h2 id="connect">Connect</h2>
   <p align="center">
     <a href="https://ronrecord.com" target="_blank" rel="noopener">
       <img align="center"
