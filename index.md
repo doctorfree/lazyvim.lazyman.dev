@@ -15,8 +15,8 @@ The following are [Lazyman](https://lazyman.dev) supported
 | [JustinNvim](https://lazyvim.lazyman.dev/posts/JustinNvim) | [JustinOhMy](https://lazyvim.lazyman.dev/posts/JustinOhMy) | [LazyIde](https://lazyvim.lazyman.dev/posts/LazyIde) | [Nv](https://lazyvim.lazyman.dev/posts/Nv) |
 | [Penguin](https://lazyvim.lazyman.dev/posts/Penguin) | [Traap](https://lazyvim.lazyman.dev/posts/Traap) | [Webdev](https://lazyvim.lazyman.dev/posts/Webdev) | |
 
-<div align="center">
-  <p align="center">
+<div>
+  <p>
     <a href="https://ronrecord.com" target="_blank" rel="noopener">
       <img align="center"
       style="width:40px;height:40px"
