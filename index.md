@@ -18,7 +18,31 @@ The following are [Lazyman](https://lazyman.dev) supported
 
 Install all Lazyman supported LazyVim configurations with the command `lazyman -i lazyvim`.
 
-## Overview
+## 📦 What is LazyVim
+
+[LazyVim](https://lazyvim.org) is one of the most popular Neovim "distributions"
+along with [AstroNvim](https://astronvim.lazyman.dev),
+[LunarVim](https://lunarvim.lazyman.dev), and
+[NvChad](https://nvchad.lazyman.dev). These aren't really distributions,
+they do not include Neovim, but that is what they are called. They are more
+accurately described as "Neovim configuration frameworks". In most cases they
+provide some pre-configuration of plugins as well as an easy way to extend
+the base configuration.
+
+A Neovim configuration framework can be of considerable assistance in managing
+the exploding Neovim plugin ecosystem, quickly and easily incorporating
+advanced features, and maintaining an up-to-date Neovim configuration.
+
+Features that distinguish LazyVim include:
+
+- Very well maintained by the author of `lazy.nvim`
+- Nice architecture, it's a plugin with which you can `import` preconfigured plugins
+- Good documentation
+
+Read our overview and comparison of
+[Neovim configuration distributions](https://lazyman.dev/posts/Configuration-Distributions).
+
+## 🌟 Overview
 
 LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 to make it easy to customize and extend your config.
@@ -89,7 +113,7 @@ will be automatically loaded by [lazy.nvim](https://github.com/folke/lazy.nvim)
 └── init.lua
 </pre>
 
-## ⚙️ Configuration
+## ⚙️  Configuration
 
 Refer to the [docs](https://lazyvim.github.io)
 
