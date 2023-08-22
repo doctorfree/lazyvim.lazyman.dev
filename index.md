@@ -5,7 +5,7 @@ toc: true
 post_style: page
 ---
 
-## Lazyman Supported LazyVim Neovim Configurations
+<h2>Lazyman Supported LazyVim Neovim Configurations</h2>
 
 The following are [Lazyman](https://lazyman.dev) supported
 [LazyVim](https://lazyvim.org) based Neovim configurations:
@@ -16,11 +16,7 @@ The following are [Lazyman](https://lazyman.dev) supported
 | [JustinNvim](https://lazyvim.lazyman.dev/posts/JustinNvim) | [JustinOhMy](https://lazyvim.lazyman.dev/posts/JustinOhMy) | [LazyIde](https://lazyvim.lazyman.dev/posts/LazyIde) | [Nv](https://lazyvim.lazyman.dev/posts/Nv) |
 | [Penguin](https://lazyvim.lazyman.dev/posts/Penguin) | [Traap](https://lazyvim.lazyman.dev/posts/Traap) | [Webdev](https://lazyvim.lazyman.dev/posts/Webdev) | |
 
-Install all Lazyman supported LazyVim configurations with the command:
-
-```shell
-lazyman -i lazyvim
-```
+Install all Lazyman supported LazyVim configurations with the command `lazyman -i lazyvim`.
 
 ## Overview
 
