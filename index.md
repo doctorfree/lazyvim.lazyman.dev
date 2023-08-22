@@ -1,6 +1,7 @@
 ---
 layout: post
-toc: false
+title: LazyVim Configurations
+toc: true
 post_style: page
 ---
 
@@ -15,8 +16,89 @@ The following are [Lazyman](https://lazyman.dev) supported
 | [JustinNvim](https://lazyvim.lazyman.dev/posts/JustinNvim) | [JustinOhMy](https://lazyvim.lazyman.dev/posts/JustinOhMy) | [LazyIde](https://lazyvim.lazyman.dev/posts/LazyIde) | [Nv](https://lazyvim.lazyman.dev/posts/Nv) |
 | [Penguin](https://lazyvim.lazyman.dev/posts/Penguin) | [Traap](https://lazyvim.lazyman.dev/posts/Traap) | [Webdev](https://lazyvim.lazyman.dev/posts/Webdev) | |
 
-<div>
-  <p>
+Install all Lazyman supported LazyVim configurations with the command:
+
+```shell
+lazyman -i lazyvim
+```
+
+## Overview
+
+LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
+to make it easy to customize and extend your config.
+Rather than having to choose between starting from scratch or using a
+pre-made distro, LazyVim offers the best of both worlds - the flexibility
+to tweak your config as needed, along with the convenience of a pre-configured setup.
+
+![image](https://user-images.githubusercontent.com/292349/211285846-0b7bb3bf-0462-4029-b64c-4ee1d037fc1c.png)
+
+![image](https://user-images.githubusercontent.com/292349/213447056-92290767-ea16-430c-8727-ce994c93e9cc.png)
+
+## ✨ Features
+
+- 🔥 Transform your Neovim into a full-fledged IDE
+- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
+- 🚀 Blazingly fast
+- 🧹 Sane default settings for options, autocmds, and keymaps
+- 📦 Comes with a wealth of plugins pre-configured and ready to use
+
+## ⚡️ Requirements
+
+- Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
+- Git >= **2.19.0** (for partial clones support)
+- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
+- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+
+## 🚀 Getting Started
+
+After installing and initializing [lazyman](https://lazyman.dev),
+install the Lazyman Base LazyVim configuration with the command:
+
+```shell
+lazyman -l
+```
+
+Open the newly installed and initialized LazyVim configuration with
+
+```shell
+NVIM_APPNAME="nvim-LazyVim" nvim
+```
+
+There's a great video created by [@elijahmanor](https://github.com/elijahmanor) with a walkthrough to get started.
+
+[![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg)](https://www.youtube.com/watch?v=N93cTbtLCIM)
+
+## 📂 File Structure
+
+The files under config will be automatically loaded at the appropriate time,
+so you don't need to require those files manually.
+**LazyVim** comes with a set of default config files that will be loaded
+**_before_** your own. See [here](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/config)
+
+You can add your custom plugin specs under `lua/plugins/`. All files there
+will be automatically loaded by [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+<pre>
+~/.config/nvim
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── spec1.lua
+│       ├── **
+│       └── spec2.lua
+└── init.lua
+</pre>
+
+## ⚙️ Configuration
+
+Refer to the [docs](https://lazyvim.github.io)
+
+<div align="center">
+  <p align="center">
     <a href="https://ronrecord.com" target="_blank" rel="noopener">
       <img align="center"
       style="width:40px;height:40px"
