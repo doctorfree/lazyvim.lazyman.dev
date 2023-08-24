@@ -8,7 +8,8 @@ post_style: page
 <h2>Lazyman Supported LazyVim Neovim Configurations</h2>
 
 The following are [Lazyman](https://lazyman.dev) supported
-[LazyVim](https://lazyvim.org) based Neovim configurations:
+[LazyVim](https://lazyvim.org){:target="_blank"}{:rel="noopener noreferrer"}
+based Neovim configurations:
 
 | LazyVim |        |        | Configurations |
 | :------ | :----: | :----: | -------------: |
@@ -20,7 +21,8 @@ Install all Lazyman supported LazyVim configurations with the command `lazyman -
 
 ## 📦 What is LazyVim
 
-[LazyVim](https://lazyvim.org) is one of the most popular Neovim "distributions"
+[LazyVim](https://lazyvim.org){:target="_blank"}{:rel="noopener noreferrer"}
+is one of the most popular Neovim "distributions"
 along with [AstroNvim](https://astronvim.lazyman.dev),
 [LunarVim](https://lunarvim.lazyman.dev), and
 [NvChad](https://nvchad.lazyman.dev). These aren't really distributions,
@@ -44,7 +46,8 @@ Read our overview and comparison of
 
 ## 🌟 Overview
 
-LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
+LazyVim is a Neovim setup powered by
+[💤 lazy.nvim](https://github.com/folke/lazy.nvim){:target="_blank"}{:rel="noopener noreferrer"}
 to make it easy to customize and extend your config.
 Rather than having to choose between starting from scratch or using a
 pre-made distro, LazyVim offers the best of both worlds - the flexibility
@@ -57,7 +60,7 @@ to tweak your config as needed, along with the convenience of a pre-configured s
 ## ✨ Features
 
 - 🔥 Transform your Neovim into a full-fledged IDE
-- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
+- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim){:target="_blank"}{:rel="noopener noreferrer"}
 - 🚀 Blazingly fast
 - 🧹 Sane default settings for options, autocmds, and keymaps
 - 📦 Comes with a wealth of plugins pre-configured and ready to use
@@ -66,8 +69,8 @@ to tweak your config as needed, along with the convenience of a pre-configured s
 
 - Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
 - Git >= **2.19.0** (for partial clones support)
-- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
-- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+- a [Nerd Font](https://www.nerdfonts.com/){:target="_blank"}{:rel="noopener noreferrer"} **_(optional)_**
+- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements){:target="_blank"}{:rel="noopener noreferrer"}
 
 ## 🚀 Getting Started
 
@@ -84,19 +87,21 @@ Open the newly installed and initialized LazyVim configuration with
 NVIM_APPNAME="nvim-LazyVim" nvim
 ```
 
-There's a great video created by [@elijahmanor](https://github.com/elijahmanor) with a walkthrough to get started.
+There's a great video created by
+[@elijahmanor](https://github.com/elijahmanor){:target="_blank"}{:rel="noopener noreferrer"}
+with a walkthrough to get started.
 
-[![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg)](https://www.youtube.com/watch?v=N93cTbtLCIM)
+[![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg){:target="_blank"}{:rel="noopener noreferrer"}](https://www.youtube.com/watch?v=N93cTbtLCIM)
 
 ## 📂 File Structure
 
 The files under config will be automatically loaded at the appropriate time,
 so you don't need to require those files manually.
 **LazyVim** comes with a set of default config files that will be loaded
-**_before_** your own. See [here](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/config)
+**_before_** your own. See [here](https://github.com/LazyVim/LazyVim/tree/main/lua/lazyvim/config){:target="_blank"}{:rel="noopener noreferrer"}
 
 You can add your custom plugin specs under `lua/plugins/`. All files there
-will be automatically loaded by [lazy.nvim](https://github.com/folke/lazy.nvim)
+will be automatically loaded by [lazy.nvim](https://github.com/folke/lazy.nvim){:target="_blank"}{:rel="noopener noreferrer"}
 
 <pre>
 ~/.config/nvim
@@ -115,7 +120,7 @@ will be automatically loaded by [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## ⚙️  Configuration
 
-Refer to the [docs](https://lazyvim.github.io)
+Refer to the [docs](https://lazyvim.github.io){:target="_blank"}{:rel="noopener noreferrer"}
 
 <div align="center">
   <p align="center">

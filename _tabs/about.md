@@ -6,7 +6,8 @@ order: 8
 
 [Lazyman](https://lazyman.dev) provides command line and menus to
 manage multiple Neovim configurations. Several of these use the
-[LazyVim](https://lazyvim.org/) configuration framework.
+[LazyVim](https://lazyvim.org/){:target="_blank"}{:rel="noopener noreferrer"}
+configuration framework.
 
 This website provides details on each of the LazyVim based
 Lazyman supported Neovim configurations.
