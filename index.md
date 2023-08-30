@@ -84,7 +84,7 @@ lazyman -l
 Open the newly installed and initialized LazyVim configuration with
 
 ```shell
-NVIM_APPNAME="lazyman/LazyVim" nvim
+NVIM_APPNAME="nvim-LazyVim" nvim
 ```
 
 There's a great video created by
